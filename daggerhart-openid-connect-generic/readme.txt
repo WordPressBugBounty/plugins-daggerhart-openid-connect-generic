@@ -1,10 +1,9 @@
 === OpenID Connect Generic Client ===
 Contributors: daggerhart, tnolte
-Donate link: http://www.daggerhart.com/
 Tags: security, login, oauth2, openidconnect, apps, authentication, autologin, sso
 Requires at least: 5.0
-Tested up to: 6.4.3
-Stable tag: 3.10.0
+Tested up to: 6.9.0
+Stable tag: 3.10.3
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -20,7 +19,7 @@ new users are created in WordPress database.
 
 Much of the documentation can be found on the Settings > OpenID Connect Generic dashboard page.
 
-Please submit issues to the Github repo: https://github.com/daggerhart/openid-connect-generic
+Please submit issues to the Github repo: https://github.com/oidc-wp/openid-connect-generic
 
 == Installation ==
 
@@ -50,6 +49,26 @@ On the settings page for this plugin (Dashboard > Settings > OpenID Connect Gene
 
 
 == Changelog ==
+
+= 3.10.3 =
+
+* Fix issue with log corruption causing fatal error.
+* Fix: Fallback to a POST request for userinfo when GET fails.
+* Fix: Improves multisite compatibility by switching to *_user_options() functions.
+* Fix: Fix for WordPress user session length being very short when refresh tokens are enabled.
+
+= 3.10.2 =
+
+* Fix: @socialmedialabs - Regression affecting SSO Auto Login with url handling improvement changes.
+
+= 3.10.1 =
+
+* Chore: @daggerhart - Readme updates and clarifications.
+* Chore: @daggerhart - Release workflow updates.
+* Improved error handling for malformed urls.
+* Fix: @JUVOJustin - Change request for userinfo to GET.
+* Feature: @JUVOJustin - New filter for settings values `openid-connect-generic-settings`.
+* Feature: @JUVOJustin - New filter for state values `openid-connect-generic-new-state-value`.
 
 = 3.10.0 =
 
