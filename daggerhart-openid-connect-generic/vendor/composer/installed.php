@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'daggerhart/openid-connect-generic',
-        'pretty_version' => '3.11.1',
-        'version' => '3.11.1.0',
-        'reference' => 'aa45afd5a204f15245217bc1a55e25f9dd52dfe4',
+        'pretty_version' => '3.11.2',
+        'version' => '3.11.2.0',
+        'reference' => '1810fffbabb261cd81108575ccfd186bd2495d86',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'daggerhart/openid-connect-generic' => array(
-            'pretty_version' => '3.11.1',
-            'version' => '3.11.1.0',
-            'reference' => 'aa45afd5a204f15245217bc1a55e25f9dd52dfe4',
+            'pretty_version' => '3.11.2',
+            'version' => '3.11.2.0',
+            'reference' => '1810fffbabb261cd81108575ccfd186bd2495d86',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
